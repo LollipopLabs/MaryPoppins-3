@@ -1,0 +1,149 @@
+/* Comments in CSS by command+ slash */
+html{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    margin: 20px;
+    display:flex;
+    flex-direction: row
+}
+
+.header1 {
+    justify-content:flex-end;
+}
+
+.header2 {
+    justify-content: flex-start;
+}
+    
+#logo{
+    width: 40px;
+}
+.nav-element {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    float: right;
+}
+
+.nav-element:hover {
+    text-decoration: underline;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+p {
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 26px;
+}
+.pcommunity {
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+.ul{
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 26px;
+}
+.button {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: black;
+    border: 0px;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    cursor: pointer;
+}
+
+header button {
+    float: right;
+}
+
+.button:hover {
+}
+
+.combutton {
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 50px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    cursor: pointer;
+}
+
+#vid1 {
+    width: 350px
+}
+#vid2 {
+    width: 550px
+}
+#vid3 {
+    width: 550px
+}
+#vid4 {
+    width: 550px
+}
+
+.comimage {
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 400px;
+    object-fit: contain;
+}
+.yellowsec {
+    background-color: #ffc700;
+    margin-top: 100px;
+}
+.yellowdiv {
+    max-width: 500px;
+}
+.community {
+    background-color: black;
+    color: white;
+}
+.sign-up {
+    margin: 40px 50px;
+}
+.input {
+    margin: 10px;
+    border-color: black;
+    border: solid 3px;
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+    color: #282828;
+    padding-left: 12px;
+}
+footer {
+    background-color: #fafafa;
+}
+.footersec {
+    margin: 50px;
+}
